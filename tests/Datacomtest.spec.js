@@ -17,3 +17,4 @@ test.only('Ecommerce', async ({ page }) => {
   await expect(page.locator('#message')).toContainText('Congrats! Your order of $905.99 has been registered and will be shipped to 29 Birkinshaw grove, Riverstone Terrace, Upperhutt, Wellington - New Zealand.');
   await page.getByRole('link', { name: 'Log Out' }).click();
 });
+

@@ -1,6 +1,6 @@
 const {test} = require ('@playwright/test')
 
-	test.skip('@Web Client App login', async ({ page }) => {
+	test('@Web Client App login', async ({ page }) => {
        //js file- Login js, DashboardPage
        const email = "anshika@gmail.com";
        const productName = 'zara coat 3';
